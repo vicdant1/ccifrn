@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+/* General assets */
+
+body{
+  font-family: 'Jost', sans-serif;
+}
+
+
+.no-gap-bottom{
+  padding-bottom: 20px !important;
+}
+
+section h1 {
+  word-wrap: break-word;
+}
+
+.rounded {
+  border-radius: 40px !important;
+}
+
+.btn {
+  transition: 0.4s;
+}
+.btn:hover {
+  transition: 0.4s;
+}
+
+.img-content {
+  margin: 1rem 0;
+}
+
+.img-contrast {
+  filter: contrast(150%);
+}
+
+::selection {
+  background-color: #C22A24;
+  color: white;
+}
+
+.section-gap {
+  padding: 60px 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.alt-bg {
+  background-color: #f0f0f0 !important;
+}
+
+.img-border {
+  border-radius: 25px;
+  transition: 0.6s;
+}
+
+.img-border:hover {
+  border-radius: 25px 5px 25px 5px;
+}
+
+.ref-font {
+  font-size: 12px;
+}
+
+.media-link {
+  color: #333;
+  transition: 0.4s;
+}
+
+.media-link:hover {
+  color: #C22A24;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C22A24;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f50029;
+}
+
+/* navbar */
+
+.nav-bg{
+  background-color: #101d35 ;
+}
+
+#logo {
+  font-family: 'Jost', sans-serif;
+}
+
+/* link-expand */
+
+.link-expand {
+  display: inline-block;
+}
+
+.link-expand::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #5EA719;
+  transition: width 0.3s;
+}
+
+.link-expand:hover::after {
+  width: 100%;
+}
+
+/* first-section */
+
+#first-section {
+  padding-top: 2rem;
+}
+
+/* integrantes */
+
+.flex-item {
+  width: 150px;
+  margin: 5px 10px;
+  /* height: 150px; */
+  /* margin: 10px 20px; */
+  /* border-radius: 100%; */
+}
+
+.flex-item img:hover {
+  clip-path: circle(45% at 50% 50%);
+}
+
+.flex-item img{
+
+  clip-path: circle(50% at 50% 50%);
+  transition: clip-path 1s;
+
+}
+
+/* Mídia */
+
+.video-content{
+  margin-top: 20px;
+}
+
+
+/* footer */
+
+.footer-link {
+  color: #eaeaea;
+  transition: 0.4s;
+}
+
+.footer-link:hover {
+  color: #5EA719;
+}
+
+
+/* Color set
+----------------------
+#C22A24 - vermelho
+#1E3966 - azul 
+#5EA719 - verde limao
+#617A46 - verde escuro
+#8F5D5B - vermelho escuro */
